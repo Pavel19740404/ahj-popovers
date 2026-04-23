@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Popovers</title>
+</head>
+<body>
+  <form class="form" novalidate>
+    <div class="form-control">
+      <input
+        type="text"
+        name="login"
+        placeholder="Логин"
+        required
+      />
+    </div>
+    <div class="form-control">
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required
+      />
+    </div>
+    <div class="form-control">
+      <input
+        type="text"
+        name="credit-card"
+        placeholder="Кредитная карта"
+        pattern="\d{16}"
+        required
+      />
+    </div>
+    <div class="form-control">
+      <button type="submit" class="btn">Отправить</button>
+    </div>
+  </form>
+</body>
+</html>
+
